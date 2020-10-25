@@ -21,7 +21,7 @@
     [self.view addSubview:v];
     
     UIView *vv = [[UIView alloc] initWithFrame:CGRectMake(100, 210, 100, 100)];
-    vv.backgroundColor = [UIColor yellowColor];
+    vv.backgroundColor = [UIColor blueColor];
     [self.view addSubview:vv];
 }
 
