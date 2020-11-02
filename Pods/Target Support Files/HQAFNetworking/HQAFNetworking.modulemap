@@ -1,0 +1,6 @@
+framework module HQAFNetworking {
+  umbrella header "HQAFNetworking-umbrella.h"
+
+  export *
+  module * { export * }
+}

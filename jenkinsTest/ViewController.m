@@ -6,6 +6,7 @@
 //
 
 #import "ViewController.h"
+#import <Haizeiwang/Test2.h>
 
 @interface ViewController ()
 
@@ -25,6 +26,11 @@
     UIView *vv = [[UIView alloc] initWithFrame:CGRectMake(100, 210, 100, 100)];
     vv.backgroundColor = [UIColor blueColor];
     [self.view addSubview:vv];
+}
+
+- (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event {
+    NSLog(@"123");
+    [[Test2 new] checkTokenForToken:@"123" AndViewController:self];
 }
 
 

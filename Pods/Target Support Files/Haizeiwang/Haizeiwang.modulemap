@@ -1,0 +1,6 @@
+framework module Haizeiwang {
+  umbrella header "Haizeiwang-umbrella.h"
+
+  export *
+  module * { export * }
+}

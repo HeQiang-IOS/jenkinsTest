@@ -1,0 +1,43 @@
+PODS:
+  - AFNetworking (3.2.1):
+    - AFNetworking/NSURLSession (= 3.2.1)
+    - AFNetworking/Reachability (= 3.2.1)
+    - AFNetworking/Security (= 3.2.1)
+    - AFNetworking/Serialization (= 3.2.1)
+    - AFNetworking/UIKit (= 3.2.1)
+  - AFNetworking/NSURLSession (3.2.1):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.2.1)
+  - AFNetworking/Security (3.2.1)
+  - AFNetworking/Serialization (3.2.1)
+  - AFNetworking/UIKit (3.2.1):
+    - AFNetworking/NSURLSession
+  - Haizeiwang (0.2.0):
+    - HQAFNetworking
+    - JSONModel
+  - HQAFNetworking (0.1.0):
+    - AFNetworking (~> 3.2.1)
+  - JSONModel (1.8.0)
+
+DEPENDENCIES:
+  - Haizeiwang
+
+SPEC REPOS:
+  https://github.com/HeQiang-IOS/HQRepo.git:
+    - Haizeiwang
+    - HQAFNetworking
+  trunk:
+    - AFNetworking
+    - JSONModel
+
+SPEC CHECKSUMS:
+  AFNetworking: b6f891fdfaed196b46c7a83cf209e09697b94057
+  Haizeiwang: 6a7abde8fd0b89303a1028056c2936cd0fd1f9bd
+  HQAFNetworking: f8b7c45229d96b928059c21e7e816d6b5864c98b
+  JSONModel: 02ab723958366a3fd27da57ea2af2113658762e9
+
+PODFILE CHECKSUM: f241d7fdddceec95107b06a09be9f1ebc00ba720
+
+COCOAPODS: 1.10.0

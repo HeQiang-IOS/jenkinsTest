@@ -1,0 +1,5 @@
+${PODS_ROOT}/Target Support Files/Pods-jenkinsTest/Pods-jenkinsTest-frameworks.sh
+${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework
+${BUILT_PRODUCTS_DIR}/HQAFNetworking/HQAFNetworking.framework
+${BUILT_PRODUCTS_DIR}/Haizeiwang/Haizeiwang.framework
+${BUILT_PRODUCTS_DIR}/JSONModel/JSONModel.framework
